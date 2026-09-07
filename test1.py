@@ -6,7 +6,7 @@ import requests # 請求工具
 from bs4 import BeautifulSoup # 解析工具
 import time # 用來暫停程式 (Although already imported in uK4v4er0dxNO, re-importing here ensures self-containment for troubleshooting)
 
-stock = ["1215","7736"]
+stock = ["1215","7736","1216"]
 for i in range(len(stock)): # 迴圈依序爬股價
 
     # 現在處理的股票
